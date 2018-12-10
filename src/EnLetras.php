@@ -1,6 +1,6 @@
 <?php
 
-namespace \inquid\enletras;
+namespace inquid\enletras;
 
 /**
  * Class EnLetras
