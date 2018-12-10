@@ -28,4 +28,16 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \\inquid\en_letras\AutoloadExample::widget(); ?>```
+
+        $letras = NumeroALetras::convertir(12345);
+```        
+Si deseas convertir un número con decimales y mostrar la moneda:
+```php
+        $letras = NumeroALetras::convertir(12345.67, 'colones', 'centimos');
+```
+
+Lo cual te devuelve: *DOCE MIL TRESCIENTOS CUARENTA Y CINCO COLONES CON SESENTA Y SIETE CENTIMOS*
+
+## Créditos
+
+Basado en https://github.com/arielcr/numero-a-letras
