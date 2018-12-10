@@ -1,0 +1,21 @@
+{
+    "name": "inquid/yii-en-letras",
+    "description": "Convierte un número a letras",
+    "type": "yii2-extension",
+    "keywords": ["yii2","yii3","extension","facturación","Número a Letras","SAT","cfdi","xml"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "inquid",
+            "email": "contact@inquid.co"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\inquid\\en_letras\\": ""
+        }
+    }
+}
