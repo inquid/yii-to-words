@@ -29,11 +29,11 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 
-        $letras = NumeroALetras::convertir(12345);
+        $letras = EnLetras::convertir(12345);
 ```        
 Si deseas convertir un número con decimales y mostrar la moneda:
 ```php
-        $letras = NumeroALetras::convertir(12345.67, 'colones', 'centimos');
+        $letras = EnLetras::convertir(12345.67, 'colones', 'centimos');
 ```
 
 Lo cual te devuelve: *DOCE MIL TRESCIENTOS CUARENTA Y CINCO COLONES CON SESENTA Y SIETE CENTIMOS*
