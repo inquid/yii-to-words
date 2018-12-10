@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "\\inquid\\en_letras\\": "src"
+            "\\inquid\\enletras\\": "src"
         }
     }
 }
