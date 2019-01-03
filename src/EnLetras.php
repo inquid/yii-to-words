@@ -4,7 +4,7 @@ namespace inquid\enletras;
 
 /**
  * Class EnLetras
- * @package app\modules\Facturacion\components
+ * @package inquid\enletras
  */
 class EnLetras
 {
